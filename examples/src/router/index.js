@@ -30,8 +30,8 @@ export const routeComponents = [
   },
   {
     title: 'TimePicker 组件',
-    path: '/TimePicker',
-    component: () => import('@/views/timePicker/index.vue')
+    path: '/timePicker',
+    component: () => import('@/views/time-picker/index.vue')
   },
   {
     title: 'Radio 组件',

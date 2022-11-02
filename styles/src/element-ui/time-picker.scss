@@ -73,6 +73,13 @@
       border-bottom: transparent;
     }
   }
+
+  .el-time-panel__btn {
+    color: getCssVar('text-color-regular');
+    &.confirm {
+      color: getCssVar('color-primary');
+    }
+  }
 }
 
 
